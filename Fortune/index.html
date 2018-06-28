@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <form action="/action_page.php" id="usrform">
+
+                    First Name:<br />
+                    <input id="fname" type="text" name="fname" placeholder="First Name"><br />
+
+                    Last Name:<br />
+                    <input id="lname" type="text" name="lname" placeholder="Last Name"><br />
+
+                    Age:<br />
+                    <input id="age" type="text" name="age" placeholder="Age"><br />
+
+                    Birth Month:<br />
+                    <input id="month" type="text" name="month" placeholder="Birth Month"><br />
+
+                    Please enter your favorite color from ROYGBIV.<br />
+                    <input id="button1" type="button" value="Help" onclick="Help()"><br />
+                    <input id="color" type="text" name="color" placeholder="Favorite Color"><br />
+
+                    Please enter your number of siblings greater than or equal to 0.<br />
+                    <input id="siblings" type="text" name="siblings" placeholder="Number of Siblings"><br />
+
+                </form>
+                <input id="button2" type="submit" value="Submit">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
